@@ -1,20 +1,31 @@
 ndana_bb/
 │
-├── brand/
-│   ├── builder_profile.md
-│   ├── brand_os.md
-│   ├── tone_guide.md
-│   └── visual_system.md
+├── docs/
+│   ├── index.md
+│   ├── brand/
+│   │   ├── builder_profile.md
+│   │   ├── brand_os.md
+│   │   ├── tone_guide.md
+│   │   └── visual_system.md
+│   │
+│   ├── reviews/
+│   │   ├── phase_reviews.md
+│   │   └── phase_checklist.md
+│   │
+│   ├── site/
+│   │   ├── assets/
+│   │   ├── templates/
+│   │   └── site_structure.yaml
+│   │
+│   └── misc/
+│       ├── references/
+│       └── archived_versions/
 │
-├── reviews/
-│   ├── phase_reviews.md
-│   └── phase_checklist.md
+├── templates/
+│   ├── project_template.md
+│   ├── post_template.md
+│   └── README.md
 │
-├── site/
-│   ├── assets/
-│   ├── templates/
-│   └── site_structure.yaml
-│
-└── misc/
-    ├── references/
-    └── archived_versions/
+├── mkdocs.yml
+├── requirements.txt
+└── .venv/
