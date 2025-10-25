@@ -1,0 +1,13 @@
+# Netlify Build Configuration for Builder Hub
+
+[build]
+  publish = "site"              # MkDocs output folder
+  command = "mkdocs build"      # Build command
+
+[build.environment]
+  PYTHON_VERSION = "3.12"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

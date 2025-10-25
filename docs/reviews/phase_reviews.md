@@ -21,7 +21,6 @@
 - Confirmed `builder_profile.md` and `phase_reviews.md` as baseline tracked assets.
 - Planned creation of `brand_os.md` scaffold (Phase 2 kickoff).
 
-
 ## v0.3.2 → v0.3.3 (2025-10-12)
 - Updated Brand OS:
   - Finalized Brand Pillars with Clarity, Integrity, Adaptability, Sincerity, and Sapience.
@@ -30,7 +29,11 @@
   - Integrated 'Knowledge Exchange' into Application Matrix.
   - Added placeholders for Voice Reference Sentence and future tone refinement.
 
-## v0.1 → v0.1.1 (2025-10-12)
-- Updated Builder Profile:
-  - Refined Guiding Principle to: “Build with intention and design for evolution — every system is a living idea, consciously created.”
-  - Preserved document structure and formatting consistency.
+## v0.3.3 → v0.4.0 (2025-10-13)
+  - Completed Phase 3: MkDocs Integration & Local Build Validation.
+  - Deployment preparation deferred to Phase 3.1 (Netlify provisioning).
+
+## v0.4.0 → v0.4.1 (⟦TBD⟧)
+- Provision Netlify project and connect GitHub repository.
+- Validate automated builds and environment variables.
+- Publish first live build and confirm domain mapping.
