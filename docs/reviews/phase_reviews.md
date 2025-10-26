@@ -33,7 +33,10 @@
   - Completed Phase 3: MkDocs Integration & Local Build Validation.
   - Deployment preparation deferred to Phase 3.1 (Netlify provisioning).
 
-## v0.4.0 → v0.4.1 (⟦TBD⟧)
-- Provision Netlify project and connect GitHub repository.
-- Validate automated builds and environment variables.
-- Publish first live build and confirm domain mapping.
+## v0.4.0 → v0.4.1 (2025-10-25)
+- Provisioned Netlify project: `ndana-builder-hub`.
+- Connected GitHub repository for continuous deployment.
+- Validated build using Python 3.12 environment.
+- Added pip no-cache directive to Netlify build config.
+- Confirmed successful live deployment at `https://ndana-builder-hub.netlify.app`.
+- Minor front-end formatting issues observed; to be refined in future updates.
