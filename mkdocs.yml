@@ -10,6 +10,7 @@ docs_dir: docs
 
 theme:
   name: material
+  custom_dir: overrides
   palette:
     primary: blue
     accent: deep-orange
@@ -20,7 +21,14 @@ theme:
     - navigation.expand
     - navigation.instant
     - content.code.copy
+    - content.tabs.link
     - search.suggest
+    - content.blog
+    - content.blog.post
+    - content.blog.category
+    - content.blog.tag
+    - content.blog.pagination
+    - content.blog.excerpt
 
 nav:
   - Home: index.md
@@ -28,16 +36,22 @@ nav:
   - Brand OS: brand/brand_os.md
   - Projects:
       - Overview: site/projects/index.md
-  - Journal: site/blog/index.md
+  - Journal:
+      - Overview: site/blog/index.md
+      - Categories: blog/categories
+      - Tags: blog/tags
   - Resources: site/resources/index.md
   - Contact: site/contact.md
   - Phase Reviews: reviews/phase_reviews.md
 
 plugins:
   - search
-  - tags
   - git-revision-date-localized:
       enable_creation_date: true
+  - blog:
+      blog_dir: site/blog
+      post_dir: site/blog/posts
+  - macros
 
 markdown_extensions:
   - admonition

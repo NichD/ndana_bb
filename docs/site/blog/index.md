@@ -1,3 +1,3 @@
 # Journal
 
-This section will host reflections, updates, and essays related to ongoing projects and BrandBuilder development.
+Welcome to the Builder Hub Journal — a running record of development, reflection, and evolution.
