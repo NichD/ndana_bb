@@ -62,8 +62,8 @@ However, the tag and category taxonomy pages remain unresolved despite multiple 
 - Full project successfully built and served locally without critical errors.
 
 **Outstanding:**
-- `/blog/categories/` and `/blog/tags/` return 404 or render as literal `{{ blog.* }}`.  
-- `overrides/blog/` templates not yet detected (`INFO - Using custom templates` missing from build logs).  
+- Pages `/blog/categories/` and `/blog/tags/` return 404 or render as literal `{{ blog.* }}`.  
+- Section `overrides/blog/` templates not yet detected (`INFO - Using custom templates` missing from build logs).  
 - Suspected limitations in how `custom_dir` or context propagation works in Material v9.6.22.  
 - Netlify redeploy pending following Phase 4 documentation updates.
 

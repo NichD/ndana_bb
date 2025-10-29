@@ -11,18 +11,35 @@ docs_dir: docs
 theme:
   name: material
   custom_dir: overrides
+
+  # Brand-aligned palette — trust, energy, and warmth
   palette:
-    primary: blue
-    accent: deep-orange
+    scheme: default
+    primary: slate
+    accent: crimson
+    background: "#FAFAFA"
+
+  # Typography refinements for hierarchy and warmth
   font:
-    text: Inter
-    code: JetBrains Mono
+    text: "DM Sans"
+    code: "Source Code Pro"
+    headings: "Playfair Display"
+
+  # Enhanced features for polish and navigation depth
   features:
+    - navigation.top
+    - navigation.tracking
+    - navigation.sections
     - navigation.expand
     - navigation.instant
+    - search.suggest
+    - toc.integrate
+    - header.autohide
+    - content.code.annotate
     - content.code.copy
     - content.tabs.link
-    - search.suggest
+    - content.tooltips
+    - content.action.edit
     - content.blog
     - content.blog.post
     - content.blog.category
