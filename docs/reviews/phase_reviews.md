@@ -48,13 +48,15 @@
 **Status:** In Progress — Partial Completion  
 **Focus Area:** Blog system integration and taxonomy rendering (MkDocs Material)
 
-**Summary:**  
+**Summary:**
+
 Significant progress integrating the Material for MkDocs blog system within the Builder Hub site.  
 Posts now render correctly with frontmatter metadata (title, date, category, tags), and individual post routes function as expected.  
 However, the tag and category taxonomy pages remain unresolved despite multiple configuration iterations.
 
 **Completed:**
-- Material `blog` plugin installed and confirmed active.  
+
+- Material `blog` plugin installed and confirmed active.
 - Frontmatter parsing and slug generation verified.  
 - Posts indexed under `/site/blog/posts/` and displayed on `/blog/`.  
 - Archive and per-post routes confirmed operational.  
@@ -62,7 +64,8 @@ However, the tag and category taxonomy pages remain unresolved despite multiple 
 - Full project successfully built and served locally without critical errors.
 
 **Outstanding:**
-- Pages `/blog/categories/` and `/blog/tags/` return 404 or render as literal `{{ blog.* }}`.  
+
+- Pages `/blog/categories/` and `/blog/tags/` return 404 or render as literal `{{ "{{ blog.* }}" }}`.
 - Section `overrides/blog/` templates not yet detected (`INFO - Using custom templates` missing from build logs).  
 - Suspected limitations in how `custom_dir` or context propagation works in Material v9.6.22.  
 - Netlify redeploy pending following Phase 4 documentation updates.
@@ -79,3 +82,36 @@ Phase 4 will remain open until taxonomy resolution and publishing cadence are va
 Current build stable; no regressions observed in other sections of the site.
 
 ---
+
+### Phase 4 — Site Polish and Visual Refinement (v0.4.3)
+**Date:** November 1, 2025  
+**Status:** Active  
+**Focus Area:** Aesthetic enhancement, layout refinement, and brand tone integration
+
+**Summary:**  
+Site design has evolved to better reflect Brand OS principles — clarity, sincerity, and sapience — through typography, color, and structural polish.  
+MkDocs Material theming has been refined for warmth and brand alignment, including a custom color palette, improved navigation features, and light/dark mode toggle integration.  
+Focus now shifts from foundational setup to visual harmony and brand expression.
+
+**Completed:**
+- Defined dual-palette configuration for system-aware light/dark mode with toggle functionality.  
+- Integrated custom brand palette: slate primary, crimson accent, off-white background.  
+- Updated typography to DM Sans (text), Playfair Display (headings), and Source Code Pro (code).  
+- Expanded theme features: navigation.top, header.autohide, and improved content readability.  
+- Verified palette and theme rendering consistency across rebuilds.  
+- Documented phase alignment and project direction for continuity.
+
+**Outstanding:**
+- Blog taxonomy pages (`/blog/tags/` and `/blog/categories/`) remain unresolved; override detection still pending.  
+- Custom template path recognition under `overrides/` to be validated in follow-up iteration.  
+- Additional front-matter and metadata styling (date, category badges) still under design consideration.
+
+**Next Steps (v0.4.4 Plan):**
+1. Validate `custom_dir` recognition for overrides and confirm theme loading behavior.  
+2. Begin implementing subtle metadata styling via `extra.css` for improved post presentation.  
+3. Introduce hero section or tagline for Home and Builder Profile pages.  
+4. Deploy next revision to Netlify upon phase completion.
+
+**Notes:**  
+The site now communicates a more human, reflective brand aesthetic while retaining technical clarity.  
+Visual refinement marks a key milestone toward a cohesive Builder Hub identity.

@@ -12,40 +12,56 @@ theme:
   name: material
   custom_dir: overrides
 
-  # Brand-aligned palette — trust, energy, and warmth
+  # Dual-palette configuration with auto and manual toggle support
   palette:
-    scheme: default
-    primary: slate
-    accent: crimson
-    background: "#FAFAFA"
+    - media: "(prefers-color-scheme: light)"
+      scheme: builder
+      primary: "#3B4C5A"   # Slate-blue
+      accent: "#B22222"    # Crimson red
+      background: "#FAFAFA"
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
 
-  # Typography refinements for hierarchy and warmth
-  font:
-    text: "DM Sans"
-    code: "Source Code Pro"
-    headings: "Playfair Display"
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: "#1C1C1E"   # Deep slate (dark)
+      accent: "#B22222"
+      background: "#121212"
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
 
-  # Enhanced features for polish and navigation depth
-  features:
-    - navigation.top
-    - navigation.tracking
-    - navigation.sections
-    - navigation.expand
-    - navigation.instant
-    - search.suggest
-    - toc.integrate
-    - header.autohide
-    - content.code.annotate
-    - content.code.copy
-    - content.tabs.link
-    - content.tooltips
-    - content.action.edit
-    - content.blog
-    - content.blog.post
-    - content.blog.category
-    - content.blog.tag
-    - content.blog.pagination
-    - content.blog.excerpt
+extra_css:
+  - assets/styles/extra.css
+
+# Typography refinements for hierarchy and warmth
+font:
+  text: "DM Sans"
+  code: "Source Code Pro"
+  headings: "Playfair Display"
+
+# Enhanced features for polish and navigation depth
+features:
+  - navigation.top
+  - navigation.tracking
+  - navigation.sections
+  - navigation.expand
+  - navigation.instant
+  - search.suggest
+  - toc.integrate
+  - header.autohide
+  - content.code.annotate
+  - content.code.copy
+  - content.tabs.link
+  - content.tooltips
+  - content.action.edit
+  - content.blog
+  - content.blog.post
+  - content.blog.category
+  - content.blog.tag
+  - content.blog.pagination
+  - content.blog.excerpt
 
 nav:
   - Home: index.md
@@ -53,7 +69,7 @@ nav:
   - Brand OS: brand/brand_os.md
   - Projects:
       - Overview: site/projects/index.md
-  - Journal:
+  - Blog:
       - Overview: site/blog/index.md
       - Categories: blog/categories
       - Tags: blog/tags
