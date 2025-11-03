@@ -1,5 +1,183 @@
-:root {
-  --md-primary-fg-color: #3B4C5A;
-  --md-accent-fg-color: #B22222;
-  --md-default-bg-color: #FAFAFA;
+/* ==========================================================
+   Builder Hub — Minimalist UI Overrides
+   Compatible with Material for MkDocs 9.6.x / MkDocs 1.6.x
+   Phase 4.5 — Simplified, maintainable polish.
+   ========================================================== */
+
+/* --- Header & Global Polish --- */
+.md-header {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* --- Article Containers --- */
+.md-typeset article,
+.md-content__inner > section {
+  background-color: var(--md-default-bg-color);
+  border-radius: 0.5rem;
+  padding: 1.2rem 1.6rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.04);
+}
+
+/* --- Headings --- */
+.md-typeset h1,
+.md-typeset h2 {
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: var(--md-primary-fg-color);
+}
+
+/* --- Links --- */
+body[data-md-color-scheme] .md-typeset a {
+  color: var(--md-accent-fg-color);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+body[data-md-color-scheme] .md-typeset a:hover {
+  border-bottom-color: var(--md-accent-fg-color);
+}
+
+/* --- Hero Section --- */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 4rem 0 2rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.hero-text {
+  flex: 1 1 480px;
+  text-align: left;
+}
+
+.hero-image {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body[data-md-color-scheme] .hero-image img {
+  width: 260px;
+  max-width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+body[data-md-color-scheme] .hero-image img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+body[data-md-color-scheme="slate"] .hero-image img {
+  box-shadow: 0 6px 18px rgba(255, 255, 255, 0.08);
+}
+body[data-md-color-scheme="slate"] .hero-image img:hover {
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.12);
+}
+
+/* Hero Button */
+body[data-md-color-scheme] .hero .md-button--primary {
+  background-color: var(--md-accent-fg-color);
+  color: #fff !important;
+  border: none;
+  padding: 0.6rem 1.4rem;
+  font-weight: 600;
+  border-radius: 0.4rem;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+body[data-md-color-scheme] .hero .md-button--primary:hover {
+  background-color: var(--md-accent-fg-color--dark);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-text ul {
+    text-align: left;
+    margin-left: 1.5rem;
+  }
+  .hero-image img {
+    width: 220px;
+  }
+}
+
+/* --- Hero Section Polish (Phase 4.5) --- */
+.hero-text h1 {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.hero-text h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin-top: 0.4rem;
+  background-color: var(--md-accent-fg-color);
+  border-radius: 2px;
+}
+
+.hero-text {
+  line-height: 1.6;
+}
+
+.hero-subtitle {
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.hero-cta {
+  margin-top: 1.5rem;
+}
+
+/* Optional divider for subtle structure */
+.hero::after {
+  content: "";
+  display: block;
+  margin: 2rem auto 0;
+  width: 80%;
+  max-width: 700px;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Mobile spacing refinements */
+@media (max-width: 768px) {
+  .hero {
+    padding: 3rem 0 1rem;
+  }
+
+  .hero-cta {
+    margin-top: 1rem;
+  }
+}
+
+/* --- Sidebar Navigation --- */
+.md-nav__list > .md-nav__item > .md-nav__link {
+  font-weight: 600;
+  color: var(--md-primary-fg-color);
+  margin-top: 0.4rem;
+  margin-bottom: 0.2rem;
+}
+
+.md-nav__list .md-nav__item .md-nav__list .md-nav__link {
+  color: var(--md-default-fg-color--light);
+  opacity: 0.85;
+  padding-left: 1.25rem;
+}
+
+.md-nav__link--active {
+  color: var(--md-accent-fg-color);
+  font-weight: 600;
 }

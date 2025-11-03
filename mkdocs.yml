@@ -4,7 +4,7 @@ site_name: Nicholas Dana — Builder Hub
 site_description: >-
   Personal brand hub for Nicholas Dana — exploring data science, systems design,
   and structured intelligence.
-site_url: https://nicholasdana.netlify.app  # Update after deploy
+site_url: https://builder.npdana.pro/
 repo_url: https://github.com/ndana/ndana_bb
 docs_dir: docs
 
@@ -12,78 +12,67 @@ theme:
   name: material
   custom_dir: overrides
 
-  # Dual-palette configuration with auto and manual toggle support
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: builder
-      primary: "#3B4C5A"   # Slate-blue
-      accent: "#B22222"    # Crimson red
-      background: "#FAFAFA"
+    - scheme: default
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
 
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: "#1C1C1E"   # Deep slate (dark)
-      accent: "#B22222"
-      background: "#121212"
+    - scheme: slate
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+  
+  extra_css:
+    - assets/styles/extra.css
 
-extra_css:
-  - assets/styles/extra.css
+  font:
+    text: "DM Sans"
+    code: "Source Code Pro"
+    headings: "Playfair Display"
 
-# Typography refinements for hierarchy and warmth
-font:
-  text: "DM Sans"
-  code: "Source Code Pro"
-  headings: "Playfair Display"
-
-# Enhanced features for polish and navigation depth
-features:
-  - navigation.top
-  - navigation.tracking
-  - navigation.sections
-  - navigation.expand
-  - navigation.instant
-  - search.suggest
-  - toc.integrate
-  - header.autohide
-  - content.code.annotate
-  - content.code.copy
-  - content.tabs.link
-  - content.tooltips
-  - content.action.edit
-  - content.blog
-  - content.blog.post
-  - content.blog.category
-  - content.blog.tag
-  - content.blog.pagination
-  - content.blog.excerpt
+  features:
+    - navigation.top
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.instant
+    - search.suggest
+    - toc.integrate
+    - header.autohide
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+    - content.action.edit
+    - content.blog
+    - content.blog.post
+    - content.blog.category
+    - content.blog.pagination
+    - content.blog.excerpt
 
 nav:
   - Home: index.md
   - Builder Profile: brand/builder_profile.md
-  - Brand OS: brand/brand_os.md
   - Projects:
-      - Overview: site/projects/index.md
-  - Blog:
-      - Overview: site/blog/index.md
-      - Categories: blog/categories
-      - Tags: blog/tags
-  - Resources: site/resources/index.md
-  - Contact: site/contact.md
+      - Overview: projects/index.md
+  - Journal:
+      - Overview: blog/index.md
+  - Resources: resources/index.md
+  - Contact: contact.md
   - Phase Reviews: reviews/phase_reviews.md
 
 plugins:
-  - search
+  - material/search
   - git-revision-date-localized:
       enable_creation_date: true
-  - blog:
-      blog_dir: site/blog
-      post_dir: site/blog/posts
+  - material/blog:
+      blog_dir: blog
+      post_dir: blog/posts
   - macros
 
 markdown_extensions:
@@ -93,3 +82,15 @@ markdown_extensions:
   - meta
   - toc:
       permalink: true
+
+exclude_docs:
+  phase4_plan.md
+  reviews/internal_notes.md
+  brand/brand_os.md
+  brand/brand_os_governance.md
+  brand/brandbuilder_prompt.md
+  blog/README.md
+  content_blueprint.md
+  directory_structure.md
+  templates/
+  internal/

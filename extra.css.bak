@@ -1,0 +1,163 @@
+/* Note: Overrides Material for MkDocs using body[data-md-color-scheme]
+   Confirmed working as of Material 9.6.22 (MkDocs 1.6.1). */
+
+body[data-md-color-scheme] body {
+  /* This ensures all polish styles win over theme defaults */
+}
+
+/* Header shadow & polish */
+body[data-md-color-scheme] .md-header {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06) !important;
+}
+
+/* Article & section cards */
+body[data-md-color-scheme] .md-typeset article,
+body[data-md-color-scheme] .md-content__inner > section {
+  background-color: var(--md-default-bg-color);
+  border-radius: 0.75rem;
+  padding: 1.2rem 1.6rem;
+  margin-bottom: 1.6rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Headings */
+body[data-md-color-scheme] .md-typeset h1,
+body[data-md-color-scheme] .md-typeset h2 {
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: var(--md-primary-fg-color);
+}
+
+/* Links */
+body[data-md-color-scheme] .md-typeset a {
+  color: var(--md-accent-fg-color);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease, border-bottom-color 0.2s ease;
+}
+
+body[data-md-color-scheme] .md-typeset a:hover {
+  border-bottom-color: var(--md-accent-fg-color);
+}
+
+/* ===== Hero Section Styling (Refined Layout) ===== */
+body[data-md-color-scheme] .hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  padding: 4rem 0 2rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+body[data-md-color-scheme="slate"] .hero {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body[data-md-color-scheme] .hero-text {
+  flex: 1 1 480px;
+  min-width: 320px;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  body[data-md-color-scheme] .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  body[data-md-color-scheme] .hero-text {
+    text-align: center;
+  }
+
+  body[data-md-color-scheme] .hero-text ul {
+    text-align: left;
+    margin-left: 1.5rem;
+  }
+
+  body[data-md-color-scheme] .hero-image img {
+    width: 220px;
+  }
+}
+
+body[data-md-color-scheme] .hero-image {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body[data-md-color-scheme] .hero-image img {
+  width: 260px;
+  max-width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+body[data-md-color-scheme] .hero-image img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.22);
+}
+
+body[data-md-color-scheme="slate"] .hero-image img {
+  box-shadow: 0 6px 18px rgba(255, 255, 255, 0.08);
+}
+
+body[data-md-color-scheme="slate"] .hero-image img:hover {
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.12);
+}
+
+/* ===== Hero Button Styling ===== */
+body[data-md-color-scheme] .hero .md-button--primary {
+  background-color: var(--md-accent-fg-color);
+  color: #ffffff !important;
+  border: none;
+  padding: 0.6rem 1.4rem;
+  font-weight: 600;
+  border-radius: 0.4rem;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+body[data-md-color-scheme] .hero .md-button--primary:hover {
+  background-color: var(--md-accent-fg-color--dark);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== Sidebar Navigation Enhancements ===== */
+/* Distinguish top-level items */
+.md-nav__list > .md-nav__item > .md-nav__link {
+  font-weight: 600;
+  color: var(--md-primary-fg-color);
+  margin-top: 0.4rem;
+  margin-bottom: 0.2rem;ß
+}
+
+/* Sub-item indentation and lighter text */
+.md-nav__list .md-nav__item .md-nav__list .md-nav__link {
+  color: var(--md-default-fg-color--light);
+  opacity: 0.85;
+  padding-left: 1.25rem;
+}
+
+/* Add subtle dividers between top-level sections */
+/*
+.md-nav__list > .md-nav__item {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding-top: 0.3rem;
+  margin-top: 0.3rem;
+}
+
+body[data-md-color-scheme="default"] .md-nav__list > .md-nav__item {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+*/
+
+/* Active link styling for better focus */
+.md-nav__link--active {
+  color: var(--md-accent-fg-color) !important;
+  font-weight: 600;
+}

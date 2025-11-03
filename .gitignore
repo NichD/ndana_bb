@@ -4,9 +4,13 @@ venv/
 ENV/
 env/
 
-# Python bytecode & cache
+# Python env
+.venv/
 __pycache__/
-*.py[cod]
+*.pyc
 
-# MkDocs build output
-/site/
+# MkDocs build
+site/
+
+# OS files
+.DS_Store

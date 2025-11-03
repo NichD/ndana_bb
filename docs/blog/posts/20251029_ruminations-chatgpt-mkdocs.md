@@ -1,13 +1,11 @@
 ---
-title: Ruminations on Progress - Using AI to Co-Develop Builder Hub
+title: "Ruminations on Progress - Using AI to Co-Develop Builder Hub"
 slug: ruminations-ai-mkdocs
 date: 2025-10-29
-category: Reflection
-tags:
-  - reflection
-  - mkdocs
-  - builder-hub
-  - ai
+categories:
+  - Reflections
+  - AI
+  - Development
 ---
 
 ## Introduction
@@ -28,4 +26,4 @@ It's particularly interesting that, when things begin to deviate from an optimal
 
 ## Takeaways
 
-AI tools are amazing multipliers, but they lack discerment and valid experiential insight. These key attributes are often requisite to get something from 80% to 100% functional and represent that gap where skilled, knowledgeable humans are still necessary (for now). 
+AI tools are amazing multipliers, but they lack discernment and valid experiential insight. These key attributes are often requisite to get something from 80% to 100% functional and represent that gap where skilled, knowledgeable humans are still necessary (for now).

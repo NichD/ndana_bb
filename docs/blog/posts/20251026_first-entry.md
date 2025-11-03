@@ -2,12 +2,10 @@
 title: Building the Builder Hub — A Foundation for Personal and Professional Growth
 slug: first-entry
 date: 2025-10-26
-category: Update
-tags:
-  - update
-  - mkdocs
-  - builder-hub
-  - clarity
+categories:
+  - Update
+  - Mkdocs
+  - Clarity
 ---
 
 ## Introduction

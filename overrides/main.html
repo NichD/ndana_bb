@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block styles %}
+  {{ super() }}
+  <style>
+    :root {
+      /* Light mode (default) */
+      --md-primary-fg-color: #3B4C5A;
+      --md-primary-fg-color--light: #A7B7C1;
+      --md-primary-fg-color--dark: #2A3945;
+      --md-accent-fg-color: #B22222;
+      --md-accent-fg-color--light: #FFA1A1;
+      --md-accent-fg-color--dark: #8C1A1A;
+    }
+
+    [data-md-color-scheme="slate"] {
+      /* Dark mode */
+      --md-primary-fg-color: #90A4AE;
+      --md-primary-fg-color--light: #C1CED4;
+      --md-primary-fg-color--dark: #5E6E77;
+      --md-accent-fg-color: #FF6B6B;
+      --md-accent-fg-color--light: #FF9A9A;
+      --md-accent-fg-color--dark: #D04E4E;
+    }
+  </style>
+{% endblock %}
+
+{% block extrahead %}
+  <!-- Force extra.css to load last in the head -->
+  <link rel="stylesheet" href="{{ 'assets/styles/extra.css' | url }}" />
+  <script>
+    console.log("✅ extra.css loaded after all theme styles");
+  </script>
+{% endblock %}

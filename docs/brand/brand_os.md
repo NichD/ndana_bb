@@ -39,14 +39,14 @@ The Brand Operating System (Brand OS) serves as the foundational guide for maint
   Clear, concise, and purposeful. Our language avoids jargon and complexity, focusing instead on clarity and empathy.
 
 - **Do’s**  
-  - Use active voice and positive language.  
-  - Speak directly to the audience using “you” and “we.”  
-  - Maintain a helpful and encouraging attitude.
+  Use active voice and positive language.  
+  Speak directly to the audience using “you” and “we.”  
+  Maintain a helpful and encouraging attitude.
 
 - **Don’ts**  
-  - Avoid overly technical terms or buzzwords.  
-  - Don’t be condescending or overly formal.  
-  - Refrain from using humor that could be misinterpreted.
+  Avoid overly technical terms or buzzwords.  
+  Don’t be condescending or overly formal.  
+  Refrain from using humor that could be misinterpreted.
 
 > **Voice Reference Sentence [TBD]:** [Example phrase to illustrate tone once finalized]
 
