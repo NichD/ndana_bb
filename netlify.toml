@@ -12,3 +12,9 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
+[[redirects]]
+  from = "https://npdana.pro/*"
+  to = "https://builder.npdana.pro/:splat"
+  status = 301
+  force = true
