@@ -59,6 +59,11 @@
 - Completed hero refactor and UI polish.
 - Deferred deeper design (gradients, excerpts) to Phase 5.
 
+## Phase 4.6 - Resume Addition & Updated Image (v0.4.6)
+- Incorporated resume section
+- Uploaded markdown resume version
+- Updated hero image to more recent version
+
 ---
 
 ## Future Work (v0.5.x — Blog Excerpts Enhancement)

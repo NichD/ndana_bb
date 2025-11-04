@@ -12,7 +12,7 @@
     </div>
   </div>
   <div class="hero-image">
-    <img src="assets/images/NDana_headshot_small.png"
+    <img src="assets/images/NDana_alt_headshot.JPEG"
          alt="Portrait of Nicholas Dana"
          width="260"
          loading="eager"

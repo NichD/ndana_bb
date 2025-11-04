@@ -58,6 +58,7 @@ theme:
 nav:
   - Home: index.md
   - Builder Profile: brand/builder_profile.md
+  - Resume: brand/resume.md
   - Projects:
       - Overview: projects/index.md
   - Journal:
