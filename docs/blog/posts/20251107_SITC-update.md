@@ -1,7 +1,7 @@
 ---
 title: "Interim Thoughts at An Immuno-Oncology Conference"
-slug: interim-sitc-thoughts
-date: 2025-10-29
+slug: sitc-thoughts
+date: 2025-11-07
 categories:
   - Reflections
   - Clarity
