@@ -1,7 +1,7 @@
 ---
 title: "I just wrapped up an end-of-year work trip - Time for a free day"
 slug: taking-a-breather
-date: 2025-10-29
+date: 2025-12-07
 categories:
   - Reflections
   - Growth
