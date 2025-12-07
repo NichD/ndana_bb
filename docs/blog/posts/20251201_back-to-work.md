@@ -1,7 +1,7 @@
 ---
 title: "The US Thanksgiving Holiday is over - Back to work"
 slug: back-to-work
-date: 2025-10-29
+date: 2025-12-01
 categories:
   - Reflections
   - N8N
