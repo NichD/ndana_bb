@@ -16,7 +16,7 @@ I had to do a thing, then another thing, and then 2025 was over! So what happene
 
 Before I knew it, December was over (I'm sure y'all can relate). Of course, I had plans, but we all know what happens to those. So what were the plans for this year? Where have I been, what was I trying to do and what did I achieve? Below are some of the goals for 2025 that I set out with and how they evolved as the year waxed on.
 
-### Options Trading
+**Options Trading**
 
 I spent last holiday season with a chosen family member that's retired, but whom actively trades stock options as their retirement job. They take it quite seriously, spending dozens of hours each week trading, researching, etc. They've been doing it for some years now, and I was lucky to spend time with them, absorbing their knowledge. This prompted me to start 2025 with a personal goal to net $20,000 in option trade gains by the close of 2025.
 
@@ -24,7 +24,7 @@ Well, I jumped into this task with all the gusto of someone with abundant over-c
 
 I have since done more research and collaboration and have a better approach that I'll start exploring in 2026. That said, it's clear this goal was a bust in terms of the dollar-metric, but a big win in terms of learning. The insight I gained in terms of how I approach financial efforts and the challenges that come with making regular, disciplined decisions in an emotional domain (like money).
 
-### AI Learning and Development
+**AI Learning and Development**
 
 Another big personal goal of mine was to really lean in to AI, as a user and a developer. This involved a lot of exploration and learning, as well as identifying some reasonably-sized projects that I could sink my teeth into. It doesn't help the AI landscape experiences seismic shifts every few months, but that's what creates the opportunities, no?
 
@@ -32,7 +32,7 @@ I started 2025 with a playful approach toward AI. I tried out several different 
 
 As the year wraps up, I can look back and feel quite good about where things landed. I've put into 'production' several AI workflows and augmented 'products' (this site is one). The effort has also helped me make space for imperfection and uncertainty. I'm quite pleased with the overall outcome, and am looking forward to continuing this streak in 2026!
 
-### Biotechnology (day job)
+**Biotechnology (day job)**
 
 My day job, as a Principal Data Scientist for a biotechnology start up (scale up?) was also a big focus of effort this year. I don't talk about it much here, mainly as this is a venue for my side efforts, but this is where most of my professional effort has gone this year, and I did have some accomplishments I was working toward.
 
@@ -40,7 +40,7 @@ My day job, as a Principal Data Scientist for a biotechnology start up (scale up
 
 There's still considerable uncertainty about the future of my company (and the economy, world, ...). However, I feel more confident than I ever have about those future prospects, and I'm well situated in terms of my growth prospects in the company. I even received 3 award nominations from colleagues this last quarter.
 
-### Travel and Adventure
+**Travel and Adventure**
 
 This section is going to be brief, because it was already a given. 2025 saw several firsts for me, including several new international destinations (finally visited Spain!), multiple international trips and a few new domestic destinations as well. I was able to spend some great time with family and friends, and continue to get more skilled at adaptability during travel.
 
