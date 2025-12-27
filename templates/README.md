@@ -48,13 +48,15 @@ When working with MkDocs and Material themes, use the following commands for tro
 | Serve locally with live reload | `mkdocs serve` |
 | Verbose build (show plugin and template traces) | `mkdocs build --verbose` |
 | Clean old builds | `mkdocs build --clean` |
-| Check site structure depth | `tree -L 3 -I '.venv|__pycache__|site'` |
+| Check site structure depth | `tree -L 3 -I ` |
 | Verify Netlify configuration syntax | `toml-lint netlify.toml` |
+| Check which SSH keys are loaded | `ssh-add -l` |
+| Ensure correct SSH keys are loaded | `ssh-add ~/.ssh/id_rsa` |
 
 ---
 
 ## Version
-**Templates Version:** v0.5.0  
+**Templates Version:** v0.5.1  
 **Maintained by:** Nicholas Dana  
-**Last Updated:** 2025-11-11  
+**Last Updated:** 2025-12-27 
 **Associated Phase:** Phase 5 — Content Cohesion & Brand Alignment
