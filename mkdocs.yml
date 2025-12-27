@@ -7,6 +7,7 @@ site_description: >-
 site_url: https://builder.npdana.pro/
 repo_url: https://github.com/ndana/ndana_bb
 docs_dir: docs
+enable_parallel_processing: false
 
 theme:
   name: material
