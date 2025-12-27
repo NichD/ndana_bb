@@ -7,7 +7,6 @@ site_description: >-
 site_url: https://builder.npdana.pro/
 repo_url: https://github.com/ndana/ndana_bb
 docs_dir: docs
-enable_parallel_processing: false
 
 theme:
   name: material
@@ -72,6 +71,7 @@ plugins:
   - material/search
   - git-revision-date-localized:
       enable_creation_date: true
+      enable_parallel_processing: false
   - material/blog:
       blog_dir: blog
       post_dir: blog/posts
