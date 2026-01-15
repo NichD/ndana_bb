@@ -3,10 +3,10 @@
 
 [+1 (801) 856-4129](tel:+18018564129) | [nicholaspdana@gmail.com](mailto:nicholaspdana@gmail.com)
 
-[builder.npdana.pro](https://builder.npdana.pro) | [LinkedIn](https://www.linkedin.com/in/nicholas-dana/)
+[www.npdana.pro](https://www.npdana.pro) | [LinkedIn](https://www.linkedin.com/in/nicholas-dana/)
 
-## SUMMARY (Updated Nov. 2025)
-Innovative data scientist and engineer integrating advanced analytics, machine learning, and computational imaging to accelerate scientific discovery and product innovation. Proven leader in building scalable data systems, automating complex pipelines, and translating R&D breakthroughs into operational tools that drive value across technology sectors.  
+## SUMMARY (Updated Jan. 2026)
+Innovative data scientist and AI engineer integrating advanced analytics and AI to accelerate scientific discovery and product innovation. Proven leader in building scalable systems, automating complex pipelines, and translating R&D breakthroughs into operational tools that drive value across business applications and technology sectors.
 
 ## EXPERIENCE
 
@@ -41,7 +41,17 @@ Innovative data scientist and engineer integrating advanced analytics, machine l
 **2016 – 2018 | Ann Arbor, MI**  
 
 - Designed and implemented segmentation and denoising algorithms enabling automated live-cell image analysis with minimal user input.  
-- **Quantifiable Result**: Developed a computer vision library for time-series imaging, achieving **99.5% data fidelity** at **14× probabalistic compression efficiency**.  
+- **Quantifiable Result**: Developed a computer vision library for time-series imaging, achieving **99.5% data fidelity** at **14× probabalistic compression efficiency**.
+
+## CERTIFICATIONS & CREDENTIALS
+
+### Post Graduate Program in AI Agents for Business Applications
+
+**University of Texas at Austin, McCombs School of Business**
+
+*In Progress - Completion Q2 2026*
+
+Accelerated course giving students the technical and conceptual depth to design, deploy and govern Agentic AI solutions for a variety of business applications
 
 ## EDUCATION
 
@@ -69,8 +79,8 @@ Focus in Medical Physics, Mathematics and Chemistry
 
 **Languages:** Python, SQL, C++, C#, R, MATLAB, Docker
 
-**ML / Data Science:** PyTorch, Tensorflow, Scikit, Pandas, Bayesian Modeling, Dimensionality Reduction, Computer Vision  
+**AI / Data Science:** LangChain / LangGraph, PyTorch / Tensorflow, Scikit, Pandas, Bayesian Methods, Dimensionality Reduction, Clustering, Computer Vision  
 
 **Systems & Tools:** Linux, Git, CI/CD, Cloud-based container orchestration
 
-**Domain Expertise:** Optical imaging, assay analytics, bioinformatics, agricultural AI, and computational modeling  
+**Domain Expertise:** Optical imaging, assay analytics, high-dimensional analysis, bioinformatics, agricultural AI, and computational modeling
