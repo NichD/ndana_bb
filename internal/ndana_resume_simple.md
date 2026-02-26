@@ -12,21 +12,13 @@ Innovative data scientist and AI engineer integrating advanced analytics and AI 
 
 ### **Elephas Biosciences** — *Principle AI Scientist & Developer*  
 
-**June 2021 – Present | Remote / Madison, WI**  
+**June 2021 – Present | Remote / Madison, WI**
 
 - Architected and deployed **multi-modal analytics pipelines** in cloud-integrated ML workflows leveraging image, cytokine, and assay data to predict drug response in *ex vivo* tumor models.  
 - Co-authored multiple conference & BioRxiv publications advancing translational oncology (**see below**).  
 - **Leadership Impact**: Technical lead for SME group (8) developing custom analytics achieving **>96% training data accuracy** and **100% concordance** with validation samples.  
 - **Strategic Initiative**: Prototyped analytic methods leading to company's first lab derived test offering.  
 - **Strategic Initiative**: Led SME group (6) identifying key QA/QC metrics, significantly improving QNS assessment and overall platform accuracy  
-
-### **StellarPro.co** — *Co-Founder & Technical Director*
-
-**2021 – Present | Remote / Denver, CO**  
-
-- Co-founded a digital health platform connecting specialized clients with certified mental-health and medical practitioners.  
-- Developed early matching and recommendation algorithms based on user intent, therapy specialization, and practitioner credentials.  
-- **Leadership Impact**: Led a team (4) developing platform architecture, while addressing data integrity, privacy, and UX concerns.  
 
 ### **GeoVisual Analytics** — *Computer Vision & Machine Learning Scientist*  
 
@@ -79,7 +71,7 @@ Focus in Medical Physics, Mathematics and Chemistry
 
 **Languages:** Python, SQL, C++, C#, R, MATLAB, Docker
 
-**AI / Data Science:** GenAI, AgenticAI, LangChain / LangGraph, PyTorch / Tensorflow, Scikit, Pandas, Bayesian Methods, Dimensionality Reduction, Clustering, Computer Vision 
+**AI / Data Science:** GenAI, AgenticAI, LangChain / LangGraph, PyTorch / Tensorflow, Scikit, Pandas, Bayesian Methods, Dimensionality Reduction, Clustering, Computer Vision  
 
 **Systems & Tools:** Linux, Git, CI/CD, Cloud-based container orchestration
 
