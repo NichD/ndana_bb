@@ -10,7 +10,7 @@ Innovative data scientist and AI engineer integrating advanced analytics and AI 
 
 ## EXPERIENCE
 
-### **Elephas Biosciences** — *Principal Data Scientist & Developer*  
+### **Elephas Biosciences** — *Principle AI Scientist & Developer*  
 
 **June 2021 – Present | Remote / Madison, WI**  
 
@@ -79,7 +79,7 @@ Focus in Medical Physics, Mathematics and Chemistry
 
 **Languages:** Python, SQL, C++, C#, R, MATLAB, Docker
 
-**AI / Data Science:** LangChain / LangGraph, PyTorch / Tensorflow, Scikit, Pandas, Bayesian Methods, Dimensionality Reduction, Clustering, Computer Vision  
+**AI / Data Science:** GenAI, AgenticAI, LangChain / LangGraph, PyTorch / Tensorflow, Scikit, Pandas, Bayesian Methods, Dimensionality Reduction, Clustering, Computer Vision 
 
 **Systems & Tools:** Linux, Git, CI/CD, Cloud-based container orchestration
 
