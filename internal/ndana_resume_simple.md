@@ -5,7 +5,7 @@
 
 [www.npdana.pro](https://www.npdana.pro) | [LinkedIn](https://www.linkedin.com/in/nicholas-dana/)
 
-## SUMMARY (Updated Jan. 2026)
+## SUMMARY (Updated May 2026)
 Innovative data scientist and AI engineer integrating advanced analytics and AI to accelerate scientific discovery and product innovation. Proven leader in building scalable systems, automating complex pipelines, and translating R&D breakthroughs into operational tools that drive value across business applications and technology sectors.
 
 ## EXPERIENCE
@@ -37,13 +37,11 @@ Innovative data scientist and AI engineer integrating advanced analytics and AI 
 
 ## CERTIFICATIONS & CREDENTIALS
 
-### Post Graduate Program in AI Agents for Business Applications
+**Post Graduate Program in AI Agents for Business Applications**
 
-**University of Texas at Austin, McCombs School of Business**
+*University of Texas at Austin - McCombs School of Business, May 2026*
 
-*In Progress - Completion Q2 2026*
-
-Accelerated course giving students the technical and conceptual depth to design, deploy and govern Agentic AI solutions for a variety of business applications
+Accelerated course giving students the technical and conceptual depth to design, deploy, monitor, improve and govern Agentic AI solutions for a variety of business applications
 
 ## EDUCATION
 

@@ -5,28 +5,20 @@
 
 [www.npdana.pro](https://www.npdana.pro) | [LinkedIn](https://www.linkedin.com/in/nicholas-dana/)
 
-## SUMMARY (Updated Jan. 2026)
+## SUMMARY (Updated May 2026)
 Innovative data scientist and AI engineer integrating advanced analytics and AI to accelerate scientific discovery and product innovation. Proven leader in building scalable systems, automating complex pipelines, and translating R&D breakthroughs into operational tools that drive value across business applications and technology sectors.
 
 ## EXPERIENCE
 
 ### **Elephas Biosciences** — *Principle AI Scientist & Developer*  
 
-**June 2021 – Present | Remote / Madison, WI**  
+**June 2021 – Present | Remote / Madison, WI**
 
 - Architected and deployed **multi-modal analytics pipelines** in cloud-integrated ML workflows leveraging image, cytokine, and assay data to predict drug response in *ex vivo* tumor models.  
 - Co-authored multiple conference & BioRxiv publications advancing translational oncology (**see below**).  
 - **Leadership Impact**: Technical lead for SME group (8) developing custom analytics achieving **>96% training data accuracy** and **100% concordance** with validation samples.  
 - **Strategic Initiative**: Prototyped analytic methods leading to company's first lab derived test offering.  
 - **Strategic Initiative**: Led SME group (6) identifying key QA/QC metrics, significantly improving QNS assessment and overall platform accuracy  
-
-### **StellarPro.co** — *Co-Founder & Technical Director*
-
-**2021 – Present | Remote / Denver, CO**  
-
-- Co-founded a digital health platform connecting specialized clients with certified mental-health and medical practitioners.  
-- Developed early matching and recommendation algorithms based on user intent, therapy specialization, and practitioner credentials.  
-- **Leadership Impact**: Led a team (4) developing platform architecture, while addressing data integrity, privacy, and UX concerns.  
 
 ### **GeoVisual Analytics** — *Computer Vision & Machine Learning Scientist*  
 
@@ -45,13 +37,11 @@ Innovative data scientist and AI engineer integrating advanced analytics and AI 
 
 ## CERTIFICATIONS & CREDENTIALS
 
-### Post Graduate Program in AI Agents for Business Applications
+**Post Graduate Program in AI Agents for Business Applications**
 
-**University of Texas at Austin, McCombs School of Business**
+*University of Texas at Austin - McCombs School of Business, May 2026*
 
-*In Progress - Completion Q2 2026*
-
-Accelerated course giving students the technical and conceptual depth to design, deploy and govern Agentic AI solutions for a variety of business applications
+Accelerated course giving students the technical and conceptual depth to design, deploy, monitor, improve and govern Agentic AI solutions for a variety of business applications
 
 ## EDUCATION
 
@@ -79,7 +69,7 @@ Focus in Medical Physics, Mathematics and Chemistry
 
 **Languages:** Python, SQL, C++, C#, R, MATLAB, Docker
 
-**AI / Data Science:** GenAI, AgenticAI, LangChain / LangGraph, PyTorch / Tensorflow, Scikit, Pandas, Bayesian Methods, Dimensionality Reduction, Clustering, Computer Vision 
+**AI / Data Science:** GenAI, AgenticAI, LangChain / LangGraph, PyTorch / Tensorflow, Scikit, Pandas, Bayesian Methods, Dimensionality Reduction, Clustering, Computer Vision  
 
 **Systems & Tools:** Linux, Git, CI/CD, Cloud-based container orchestration
 
