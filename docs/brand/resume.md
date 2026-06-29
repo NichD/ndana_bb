@@ -18,7 +18,7 @@ Innovative data scientist and AI engineer integrating advanced analytics and AI 
 
 - **Leadership Impact**: Technical lead for SME group (8) developing custom analytics achievin **>96% training data accuracy** and **87% concordance** with validation samples
 
-- **Strategic Initiative**: Prototyped analytic methods leading to company's first Lab Derived Test (LDT) offering (publication in review)
+- **Strategic Initiative**: Prototyped analytic methods leading to company's first Lab Derived Test (LDT) clinical offering (link to test offering)[https://www.elephaslabs.com/]
 
 - **Strategic Initiative**: Led group efforts to develop and implement a testing framework (adapted TOST approach) to validate LDT method transfer to multiple international sites
 
