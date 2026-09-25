@@ -54,13 +54,15 @@ Accelerated course giving students the technical and conceptual depth to design,
 
 **Doctor of Philosophy, Biomedical Engineering**  
 
-*The University of Texas at Austin*  
+*The University of Texas at Austin, 2016* 
+
+**NIH T32 Bioinformatics Fellowship**
 
 Dissertation: *Photoacoustic Imaging for Tissue Characterization and Image Guidance in Cardiovascular Applications*
 
 **Bachelor of Science, Physics**  
 
-*University of Utah*  
+*University of Utah, 2010*  
 
 Focus in Medical Physics, Mathematics and Chemistry
 
