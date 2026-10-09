@@ -10,19 +10,27 @@ Innovative data scientist and AI engineer integrating advanced analytics and AI 
 
 ## EXPERIENCE
 
-### **Elephas Biosciences** — *Principle AI Scientist & Developer*
+### [**Off Label Development**](https://offlabel.dev) & [**Phronesix**](https://phronesix.com) — *Founder & CTO*
 
-**June 2021 – Present | Remote / Madison, WI**
+**May 2026 – Present | Remote / Denver, CO**
+
+- Founded Off Label Development, an AI consultancy bringing practical AI to small businesses — strategy sessions, workflow automation (n8n, Zapier, custom code), team training, and custom builds (custom GPTs, agents, RAG systems)
+- Founded Phronesix, a quantitative consulting practice for biotech, pharma, and healthcare: Bayesian/hierarchical modeling, survival & meta-analysis, causal inference, reproducible data pipelines, study design review, and technical due diligence
+- Own strategy, technical architecture, and delivery; every engagement built on explicit assumptions and decision-focused outputs
+
+### **Elephas Biosciences** — *Principal AI Scientist & Developer*
+
+**June 2021 – October 2026 | Remote / Madison, WI**
 
 - Architected and deployed **multi-modal analytics pipelines** in cloud-integrated ML workflows leveraging image, cytokine, and assay data to predict drug response in *ex vivo* tumor models
 
-- **Leadership Impact**: Technical lead for SME group (8) developing custom analytics achievin **>96% training data accuracy** and **87% concordance** with validation samples
+- **Leadership Impact**: Technical lead for SME group (8) developing custom analytics achieving **>96% training data accuracy** and **87% concordance** with validation samples
 
 - **Strategic Initiative**: Prototyped analytic methods leading to company's first Lab Derived Test (LDT, [link to test offering](https://www.elephaslabs.com/))
 
 - **Strategic Initiative**: Led group efforts to develop and implement a testing framework (adapted TOST approach) to validate LDT method-transfer to multiple international sites
 
-- Co-authored multiple conference & BioRxiv publications and abstracdts advancing translational oncology (see below)
+- Co-authored multiple conference & BioRxiv publications and abstracts advancing translational oncology (see below)
 
 ### **GeoVisual Analytics** — *Computer Vision & Machine Learning Scientist*
 
@@ -40,7 +48,7 @@ Innovative data scientist and AI engineer integrating advanced analytics and AI 
 
 - Designed and implemented segmentation and denoising algorithms enabling automated live-cell image analysis with minimal user input
 
-- **Quantifiable Result**: Developed a computer vision library for time-series imaging, achieving **99.5% data fidelity** at **14× probabalistic compression efficiency**
+- **Quantifiable Result**: Developed a computer vision library for time-series imaging, achieving **99.5% data fidelity** at **14× probabilistic compression efficiency**
 
 ## CERTIFICATIONS & CREDENTIALS
 
