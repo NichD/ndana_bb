@@ -5,7 +5,7 @@
 
 [www.npdana.pro](https://www.npdana.pro) | [LinkedIn](https://www.linkedin.com/in/nicholas-dana/)
 
-## SUMMARY (Updated June 2026)
+## SUMMARY (Updated October 2026)
 Innovative data scientist and AI engineer integrating advanced analytics and AI to accelerate scientific discovery and product innovation. Proven leader in building scalable systems, automating complex pipelines, and translating R&D breakthroughs into operational tools that drive value across business applications and technology sectors.
 
 ## EXPERIENCE
